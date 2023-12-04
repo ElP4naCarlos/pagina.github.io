@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Oswald:wght@700&family=Pixelify+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {font-size: 3.5em;}
+h2 {font-size: 2.7em;}
+h3 {font-size: 2em;}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.button {
+    color: rgb(198, 170, 118);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px #c6aa76 inset;
+    transition: 300ms;
+}
+
+.button:hover {
+    box-shadow: 0 0 0 3em #c6aa76 inset;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    color: #927e57;
+    padding: 20px;
+   background-color: #c6aa76;
+}
+
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    transition: 300ms;
+    border-radius: 100%;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.header__text {
+    font-size: 2.3em;
+    padding: 10px;
+    text-shadow: 1px 1px 4px #000;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav__link {
+    padding: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+
+}
+
+.nav__link:hover {
+    cursor: pointer;
+}
+
+#hero {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-shadow: 1px 1px 5px #000;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("https://shop.madlions.com/themes/leo_frido/assets/img/modules/appagebuilder/images/GENERAL_JERSEY%2023%20banner%20Kappa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color__acento {
+    color: #c6aa76;
+}
+
+.button__hero {
+    margin-top: 60px;
+    border: 4px solid #fff;
+    text-shadow: 5px 5px 5px #000;
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 15px;
+    width: 200px;
+    padding: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    transition: 300ms;
+}
+
+.button__hero:hover {
+    transform: scale(1.1);
+}
+
+#game-shop .container {
+    margin: 50px;
+}
+
+
+.game-shop__section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+img {
+    height: 300px;
+    border-radius: 2%;
+}
+
+h2 , h3 {
+    padding: 30px;
+    font-size: 35px;
+    margin: 20px;
+}
+
+p {
+    margin: 50px;
+}
+
+#news .container {
+    background-color: #d1cfcf;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+}
